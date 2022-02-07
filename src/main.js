@@ -1,5 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
+import "bootstrap";
+import "popper.js";
+import "../../mindfly/css/plugins.css"
+import "../style.css"
+import "../js/scripts"
 
 Vue.config.productionTip = false
 
