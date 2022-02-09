@@ -1,15 +1,15 @@
-import gsap from "gsap";
-import jQuery from "jquery";
-// import { DrawSVGPlugin, ScrollTrigger, CSSRulePlugin, ScrollToPlugin, MorphSVGPlugin, CustomEase, InertiaPlugin } from "gsap";
-import DrawSVGPlugin from "../js/DrawSVGPlugin.min"
-import ScrollTrigger from "../js/ScrollTrigger"
-import CSSRulePlugin from "../js/CSSRulePlugin"
-import ScrollToPlugin from "../js/ScrollToPlugin"
-import MorphSVGPlugin from "../js/MorphSVGPlugin"
-import CustomEase from "../js/CustomEase"
-import InertiaPlugin from "../js/InertiaPlugin"
-import barba from "../js/barba"
-import SplitText from "../js/SplitText"
+
+// import jQuery from "jquery";
+// // import { DrawSVGPlugin, ScrollTrigger, CSSRulePlugin, ScrollToPlugin, MorphSVGPlugin, CustomEase, InertiaPlugin } from "gsap";
+// import DrawSVGPlugin from "./DrawSVGPlugin.min"
+// import ScrollTrigger from "./ScrollTrigger"
+// import CSSRulePlugin from "./CSSRulePlugin"
+// import ScrollToPlugin from "./ScrollToPlugin"
+// import MorphSVGPlugin from "./MorphSVGPlugin"
+// import CustomEase from "./CustomEase"
+// import InertiaPlugin from "./InertiaPlugin"
+// import barba from './barba'
+// import SplitText from "./SplitText"
 (function ($) {
     "use strict";
 
@@ -264,7 +264,7 @@ import SplitText from "../js/SplitText"
     function mouseCursor() {
 
         let mouseCursor = $('#mouseCursor'),
-            circle = $('#cursor'),
+            cursor = $('#cursor'),
             dot = $('#dot'),
             cursorActive;
 
@@ -321,7 +321,7 @@ import SplitText from "../js/SplitText"
 
             if ($('body').hasClass('dark')) {
 
-                gsap.set(".cursor", {
+                gsap.set(cursor, {
                     borderColor: lightCircle
                 })
 
@@ -334,7 +334,7 @@ import SplitText from "../js/SplitText"
 
             } else {
 
-                gsap.set(".cursor", {
+                gsap.set(cursor, {
                     borderColor: darkCircle
                 })
 
@@ -1005,8 +1005,8 @@ import SplitText from "../js/SplitText"
 
             siteHeader.addClass('menu_' + menuLayout)
 
-            //
-            //            $('.main-menu').attr('data-barba-namespace', 'fs-menu')
+
+            $('.main-menu').attr('data-barba-namespace', 'fs-menu')
 
 
             siteNav.wrapInner("<div class='fs-menu-wrapper'></div>")

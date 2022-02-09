@@ -10,6 +10,7 @@
     data-footer-layout="light"
     data-page-loader="true"
   >
+    <!--Page Loader-->
     <div data-duration="5" class="alioth-page-loader" data-layout="light">
       <span class="apl-background"></span>
 
@@ -43,25 +44,19 @@
       <div id="dot"></div>
     </div>
     <!-- /Mouse Cursor -->
-    <div
-      class="site-header classic_menu dark sticky_header"
-      style="position: fixed"
-    >
+
+    <!-- Header -->
+    <div class="site-header">
       <div class="header-wrapper">
         <!-- Site Branding -->
         <div class="site-branding">
           <!-- Site Logos -->
-          <div class="site-logo" style="transform: translate(0px, 0%)">
+          <div class="site-logo">
             <a href="index.html">
-              <img
-                alt="Site Logo"
-                class="dark-logo"
-                src="../../img/site-logo.png"
-              />
               <img
                 alt="Site Logo Light"
                 class="light-logo"
-                src="../../img/site-logo-light.png"
+                src="../assets/site-logo.png"
               />
             </a>
           </div>
@@ -69,14 +64,21 @@
         </div>
         <!-- /Site Branding -->
 
+        <!-- Menu Toggle Button (Don't touch) -->
+        <div class="menu-toggle">
+          <span class="toggle-line"></span>
+          <span class="toggle-line"></span>
+        </div>
+        <!-- /Menu Toggle Button (Don't touch) -->
+
         <!-- Site Navigation -->
-        <div class="site-navigation classic">
+        <div class="site-navigation">
           <span class="sub-back"><i class="icofont-long-arrow-left"></i></span>
 
           <!-- Main Menu -->
           <ul class="menu main-menu">
             <li class="menu-item has-children">
-              <a href="#." style="transform: translate(0px, 0%)">Home</a>
+              <a href="#.">Home</a>
               <!-- Sub-Menu -->
               <ul class="sub-menu">
                 <li class="menu-item"><a href="index.html">Agency</a></li>
@@ -164,19 +166,38 @@
             </li>
           </ul>
           <!-- /Main Menu -->
+
+          <!-- Menu Widget (Left) -->
+          <div class="menu-widget menu-widget-left">
+            <ul class="social-list">
+              <li><a href="#.">Facebook</a></li>
+              <li><a href="#.">Instagram</a></li>
+              <li><a href="#.">Twitter</a></li>
+              <li><a href="#.">LinkedIn</a></li>
+            </ul>
+          </div>
+          <!-- /Menu Widget (Left) -->
+
+          <!-- Menu Widget (Right) -->
+          <div class="menu-widget menu-widget-right">
+            <div class="git-button">
+              <a href="mailto:hello@pethemes.com">Get in touch!</a>
+            </div>
+          </div>
+          <!-- /Menu Widget (Right) -->
         </div>
         <!-- /Site Navigation -->
 
         <!-- Header Widgets -->
         <div class="header-widgets">
           <!-- Header Widget-->
-          <div
-            class="header-widget"
-            style="opacity: 1; transform: translate(0px, 0px)"
-          >
+          <div class="header-widget">
             <!--CTA Widget-->
             <div class="header-cta-but">
-              <a data-hover="Become an Artist" href="mailto:hello@pethemes.com">
+              <a
+                data-hover=" Become an Artist"
+                href="mailto:hello@pethemes.com"
+              >
                 Become an Artist
               </a>
             </div>
@@ -190,7 +211,7 @@
     <!-- /Header -->
 
     <!-- Page -->
-    <div id="page" style="visibility: visible">
+    <div id="page" data-barba="container">
       <!-- Page Content -->
       <div id="content" class="page-content">
         <!--Section-->
@@ -206,51 +227,28 @@
               >
                 <!-- Slider Background Texts (Don't touch) -->
                 <span class="ss2-overlay"></span>
-                <div
-                  class="ss2-back-texts"
-                  style="transform: translate(-340px, 0px)"
-                ></div>
+                <div class="ss2-back-texts"></div>
                 <!--/ Slider Background Texts (Don't touch) -->
 
                 <!-- Projects Wrapper -->
-                <div
-                  class="showcase-slideshow-2-wrapper"
-                  style="transform: translate(0%, -50%)"
-                >
+                <div class="showcase-slideshow-2-wrapper">
                   <!-- Project -->
-                  <div
-                    class="ss2-project slide_1"
-                    data-title="The Mindfly MPassport"
-                    data-index="1"
-                  >
+                  <div class="ss2-project">
                     <!-- Project Metas -->
                     <div class="ss2-project-meta">
                       <!-- Project Category -->
-                      <div class="ss2-project-cat">
-                        <span style="transform: translate(0px, -100%)"
-                          >MPassport</span
-                        >
-                      </div>
+                      <div class="ss2-project-cat">Home</div>
                       <!--/ Project Category -->
 
                       <!-- Project Title -->
-                      <div class="ss2-project-title">The Mindfly MPassport</div>
+                      <div class="ss2-project-title">Home</div>
                       <!--/ Project Title -->
 
                       <!-- Project Excerpt -->
-                      <div
-                        class="ss2-project-excerpt"
-                        style="
-                          display: block;
-                          text-align: start;
-                          position: relative;
-                        "
-                      >
-                        <span style="transform: translate(0px, -100%)"
-                          >A not of dust suspended in a sunbeam Jean-Francis
-                          Champollion Flatland Euclid explorations
-                          extraplanetary?
-                        </span>
+                      <div class="ss2-project-excerpt">
+                        Billions upon billions rings of Uranus Drake Equation
+                        hearts of the stars ship of the imagination great
+                        turbulent clouds.
                       </div>
                       <!--/ Project Excerpt -->
                     </div>
@@ -272,25 +270,21 @@
                   <!--/ Project -->
 
                   <!-- Project -->
-                  <div
-                    class="ss2-project slide_2 active"
-                    data-title="The Mindfly Gallery"
-                    data-index="2"
-                  >
+                  <div class="ss2-project">
                     <!-- Project Metas -->
                     <div class="ss2-project-meta">
                       <!-- Project Category -->
-                      <div class="ss2-project-cat">Market</div>
+                      <div class="ss2-project-cat">The Mindfly MPassport</div>
                       <!--/ Project Category -->
 
                       <!-- Project Title -->
-                      <div class="ss2-project-title">The Mindfly Gallery</div>
+                      <div class="ss2-project-title">The Mindfly MPassport</div>
                       <!--/ Project Title -->
 
                       <!-- Project Excerpt -->
                       <div class="ss2-project-excerpt">
-                        Rogue shores of the cosmic ocean kindling the energy
-                        hidden in matter Cambrian explosion star stuff
+                        A mote of dust suspended in a sunbeam Jean-François
+                        Champollion Flatland Euclid explorations extraplanetary?
                       </div>
                       <!--/ Project Excerpt -->
                     </div>
@@ -319,11 +313,11 @@
                     <!-- Project Metas -->
                     <div class="ss2-project-meta">
                       <!-- Project Category -->
-                      <div class="ss2-project-cat">GameFi</div>
+                      <div class="ss2-project-cat">The Mindfly MPassport</div>
                       <!--/ Project Category -->
 
                       <!-- Project Title -->
-                      <div class="ss2-project-title">The Mindfly GameFi</div>
+                      <div class="ss2-project-title">The Mindfly MPassport</div>
                       <!--/ Project Title -->
 
                       <!-- Project Excerpt -->
@@ -355,11 +349,11 @@
                     <!-- Project Metas -->
                     <div class="ss2-project-meta">
                       <!-- Project Category -->
-                      <div class="ss2-project-cat">Photography</div>
+                      <div class="ss2-project-cat">The Mindfly GameFi</div>
                       <!--/ Project Category -->
 
                       <!-- Project Title -->
-                      <div class="ss2-project-title">The Secrets</div>
+                      <div class="ss2-project-title">The Mindfly GameFi</div>
                       <!--/ Project Title -->
 
                       <!-- Project Excerpt -->
@@ -375,7 +369,7 @@
                     <div class="ss2-project-image">
                       <img
                         alt="Project İmage"
-                        src="../assets/mindfly-feature-1.png"
+                        src="../assets/mindfly-feature-8.png"
                       />
                     </div>
                     <!--/ Project Image -->
@@ -387,40 +381,7 @@
                   <!--/ Project -->
 
                   <!-- Project -->
-                  <div class="ss2-project">
-                    <!-- Project Metas -->
-                    <div class="ss2-project-meta">
-                      <!-- Project Category -->
-                      <div class="ss2-project-cat">Production</div>
-                      <!--/ Project Category -->
 
-                      <!-- Project Title -->
-                      <div class="ss2-project-title">Rainbows</div>
-                      <!--/ Project Title -->
-
-                      <!-- Project Excerpt -->
-                      <div class="ss2-project-excerpt">
-                        Billions upon billions rings of Uranus Drake Equation
-                        hearts of the stars ship of the imagination great
-                        turbulent clouds.
-                      </div>
-                      <!--/ Project Excerpt -->
-                    </div>
-                    <!--/ Project Metas -->
-
-                    <!-- Project Image -->
-                    <div class="ss2-project-image">
-                      <img
-                        alt="Project İmage"
-                        src="img/mindfly-feature-8.png"
-                      />
-                    </div>
-                    <!--/ Project Image -->
-
-                    <!-- Project URL -->
-                    <a class="ss2-project-url" href="project-3.html"></a>
-                    <!--/ Project URL -->
-                  </div>
                   <!--/ Project -->
                 </div>
                 <!--/ Projects Wrapper -->
@@ -432,193 +393,11 @@
                 <!--/ Projects Button -->
 
                 <!-- Images Wrapper (Don't touch) -->
-                <div
-                  class="ss2-images swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events"
-                  style="transform: translate(0px, 0px)"
-                >
-                  <div
-                    class="swiper-wrapper"
-                    id="swiper-wrapper-d956ae4138025ee3"
-                    aria-live="polite"
-                    style="
-                      transform: translate3d(-861px, 0px, 0px);
-                      transition-duration: 0ms;
-                    "
-                  >
-                    <div
-                      class="swiper-slide swiper-slide-prev"
-                      data-slide=".slide_1"
-                      role="group"
-                      aria-label="1 / 5"
-                      style="width: 861px"
-                    >
-                      <div class="ss2-project-image">
-                        <div
-                          class="slide-bgimg"
-                          style="
-                            transform: translateX(430.5px);
-                            transition: all 1000ms ease 0s;
-                          "
-                        >
-                          <img
-                            alt="Project İmage"
-                            src="img/mindfly-feature-1.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="swiper-slide swiper-slide-active"
-                      data-slide=".slide_2"
-                      role="group"
-                      aria-label="2 / 5"
-                      style="width: 861px"
-                    >
-                      <div class="ss2-project-image">
-                        <div
-                          class="slide-bgimg"
-                          style="
-                            transform: translateX(0px);
-                            transition: all 1000ms ease 0s;
-                          "
-                        >
-                          <!--Project Video-->
-                          <div
-                            tabindex="0"
-                            class="plyr plyr--full-ui plyr--video plyr--vimeo plyr--fullscreen-enabled plyr--playing plyr--hide-controls"
-                          >
-                            <div class="plyr__controls"></div>
-                            <div
-                              class="plyr__video-wrapper plyr__video-embed"
-                              style="padding-bottom: 56.25%"
-                            >
-                              <div
-                                class="plyr__video-embed__container"
-                                style="transform: translateY(-38.2765%)"
-                              >
-                                <iframe
-                                  src="https://player.vimeo.com/video/631871963?loop=true&amp;autoplay=true&amp;muted=false&amp;gesture=media&amp;playsinline=true&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=false&amp;customControls=true"
-                                  allowfullscreen=""
-                                  allow="autoplay; fullscreen; picture-in-picture"
-                                  title="Player for Sequence 01.mp4"
-                                  data-ready="true"
-                                  tabindex="-1"
-                                ></iframe>
-                              </div>
-                              <div class="plyr__poster" hidden=""></div>
-                            </div>
-                            <div class="plyr__captions"></div>
-                          </div>
-                          <!--/Project Video-->
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="swiper-slide swiper-slide-next"
-                      data-slide=".slide_3"
-                      role="group"
-                      aria-label="3 / 5"
-                      style="width: 861px"
-                    >
-                      <div class="ss2-project-image">
-                        <div
-                          class="slide-bgimg"
-                          style="
-                            transform: translateX(-430.5px);
-                            transition: all 1000ms ease 0s;
-                          "
-                        >
-                          <img
-                            alt="Project İmage"
-                            src="img/mindfly-feature-4.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="swiper-slide"
-                      data-slide=".slide_4"
-                      role="group"
-                      aria-label="4 / 5"
-                      style="width: 861px"
-                    >
-                      <div class="ss2-project-image">
-                        <div
-                          class="slide-bgimg"
-                          style="
-                            transform: translateX(-861px);
-                            transition: all 1000ms ease 0s;
-                          "
-                        >
-                          <img
-                            alt="Project İmage"
-                            src="img/mindfly-feature-5.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="swiper-slide"
-                      data-slide=".slide_5"
-                      role="group"
-                      aria-label="5 / 5"
-                      style="width: 861px"
-                    >
-                      <div class="ss2-project-image">
-                        <div
-                          class="slide-bgimg"
-                          style="
-                            transform: translateX(-1291.5px);
-                            transition: all 1000ms ease 0s;
-                          "
-                        >
-                          <img
-                            alt="Project İmage"
-                            src="img/mindfly-feature-8.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div class="ss2-images swiper-container"></div>
                 <!--/ Images Wrapper (Don't touch) -->
 
                 <!-- Slider Navigation Elements (Don't touch) -->
-                <div
-                  class="ss2-dots swiper-pagination-clickable swiper-pagination-bullets"
-                  style="transform: translate(0px, -125px)"
-                >
-                  <span
-                    class="ss2-dot swiper-pagination-bullet"
-                    tabindex="0"
-                    style="opacity: 1; transform: translate(0px, 0px)"
-                    >01</span
-                  >
-                  <span
-                    class="ss2-dot swiper-pagination-bullet swiper-pagination-bullet-active"
-                    tabindex="0"
-                    style="opacity: 1; transform: translate(0px, 0px)"
-                    >02</span
-                  >
-                  <span
-                    class="ss2-dot swiper-pagination-bullet"
-                    tabindex="0"
-                    style="opacity: 1; transform: translate(0px, 0px)"
-                    >03</span
-                  >
-                  <span
-                    class="ss2-dot swiper-pagination-bullet"
-                    tabindex="0"
-                    style="opacity: 1; transform: translate(0px, 0px)"
-                    >04</span
-                  >
-                  <span
-                    class="ss2-dot swiper-pagination-bullet"
-                    tabindex="0"
-                    style="opacity: 1; transform: translate(0px, 0px)"
-                    >05</span
-                  >
-                </div>
+                <div class="ss2-dots"></div>
                 <div class="ss2-nav">
                   <div class="ss2-prev"><i class="icofont-thin-left"></i></div>
                   <div class="ss2-fract">
@@ -650,10 +429,125 @@
           <!--/Wrapper-->
         </div>
         <!--/Section -->
+
+        <!--Section -->
+        <div class="section">
+          <!--Wrapper-->
+          <div class="wrapper-full no-margin">
+            <!--Column-->
+            <div class="c-col-12 no-gap no-margin">
+              <!-- Page Nav -->
+              <div class="alioth-page-nav" style="background-color: #f1f1f1">
+                <!--Page URL-->
+                <a href="works.html">
+                  <!-- Page Title -->
+                  <div class="page-title">
+                    Mindfly not only Arts and Technology
+                  </div>
+                  <!-- /Page Title -->
+
+                  <!-- Page Sub-Title -->
+
+                  <!-- /Page Sub-Title -->
+                </a>
+              </div>
+              <!-- /Page Nav -->
+            </div>
+            <!--/Column-->
+          </div>
+          <!--/Wrapper-->
+        </div>
+        <!--/Section -->
       </div>
       <!-- /Page Content -->
     </div>
     <!-- /Page -->
+
+    <!-- Site Footer -->
+    <div id="footer" class="site-footer section">
+      <!-- Footer Wrapper (Top) -->
+      <div class="wrapper">
+        <!-- Footer Branding -->
+        <div class="c-col-6 footer-widget footer_brand">
+          <!-- Footer Logo -->
+          <div class="footer-logo">
+            <img alt="Footer Logo" src="img/footer-logo.png" />
+          </div>
+          <!-- Footer Logo -->
+
+          <!-- Copyright -->
+          <div class="copyright-text">2020©</div>
+          <!--/ Copyright -->
+        </div>
+        <!--/ Footer Branding -->
+
+        <!-- Footer Widget -->
+        <div class="c-col-3 footer-widget">
+          <!-- Socials Widget -->
+          <div class="social-list-widget">
+            <ul>
+              <li><a target="_blank" href="#.">Facebook</a></li>
+              <li><a target="_blank" href="#.">Instagram</a></li>
+              <li><a target="_blank" href="#.">Twitter</a></li>
+              <li><a target="_blank" href="#.">LinkedIn</a></li>
+              <li><a target="_blank" href="#.">Behance</a></li>
+            </ul>
+          </div>
+          <!--/ Socials Widget -->
+        </div>
+        <!--/ Footer Widget -->
+
+        <!-- Footer Widget -->
+        <div class="c-col-3 footer-widget">
+          <!-- Text Box -->
+          <div class="alioth-text-box">
+            <h5 style="color: rgba(25, 27, 29, 0.6)">
+              #15–7015 Avenue of Americas <br />New York, NY L5S 1T7
+              <br />
+              <br />+1 812 585 14 23
+            </h5>
+          </div>
+          <!--/ Text Box -->
+        </div>
+        <!--/ Footer Widget -->
+      </div>
+      <!--/ Footer Wraper (Top) -->
+
+      <!-- Footer Wraper (Bottom) -->
+      <div class="wrapper">
+        <!-- Footer Widget -->
+        <div class="c-col-6 footer-widget footer_cta">
+          <!-- CTA -->
+          <div class="big-button">
+            <a href="mailto:hello@pethemes.com">hello@pethemes.com</a>
+          </div>
+          <!--/ CTA -->
+        </div>
+        <!--/ Footer Widget -->
+
+        <!-- Footer Widget -->
+        <div class="c-col-6 footer-widget footer_menu">
+          <!-- Footer Menu -->
+          <div class="footer-menu">
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  href="http://alioth-html.pethemes.com/documentation"
+                  >Documentation</a
+                >
+              </li>
+              <li><a href="mailto:hello@pethemes.com">Support</a></li>
+              <li><a target="_blank" href="#.">Purchase</a></li>
+            </ul>
+          </div>
+          <!--/ Footer Menu -->
+        </div>
+        <!--/ Footer Widget -->
+      </div>
+      <!-- Footer Wraper (Bottom) -->
+    </div>
+    <!-- /Site Footer -->
   </body>
 </template>
 
