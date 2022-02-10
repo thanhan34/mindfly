@@ -13,24 +13,17 @@
   >
     <Header />
     <Hero />
-    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-// import Navbar from "./components/Navbar.vue";
-
 import Hero from "./components/Hero.vue";
-import Footer from "./components/Footer.vue";
-
 export default {
   name: "App",
   components: {
     Header,
-
     Hero,
-    Footer,
   },
 };
 </script>

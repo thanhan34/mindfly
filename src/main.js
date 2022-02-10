@@ -3,7 +3,7 @@ import App from './App.vue'
 import "bootstrap";
 import "popper.js";
 import "../../mindfly/css/plugins.css"
-import "../style.css"
+import "../../mindfly/css/style.css"
 
 
 

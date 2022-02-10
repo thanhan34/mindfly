@@ -1,6 +1,4 @@
 <template>
-  <!--Page Loader-->
-
   <!-- Page -->
   <div id="page" data-barba="container">
     <!-- Page Content -->
@@ -20,7 +18,6 @@
               <span class="ss2-overlay"></span>
               <div class="ss2-back-texts"></div>
               <!--/ Slider Background Texts (Don't touch) -->
-
               <!-- Projects Wrapper -->
               <div class="showcase-slideshow-2-wrapper">
                 <!-- Project -->
@@ -30,11 +27,9 @@
                     <!-- Project Category -->
                     <div class="ss2-project-cat">Home</div>
                     <!--/ Project Category -->
-
                     <!-- Project Title -->
                     <div class="ss2-project-title">Home</div>
                     <!--/ Project Title -->
-
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
                       Billions upon billions rings of Uranus Drake Equation
@@ -44,7 +39,6 @@
                     <!--/ Project Excerpt -->
                   </div>
                   <!--/ Project Metas -->
-
                   <!-- Project Image -->
                   <div class="ss2-project-image">
                     <img
@@ -53,13 +47,11 @@
                     />
                   </div>
                   <!--/ Project Image -->
-
                   <!-- Project URL -->
                   <a class="ss2-project-url" href="project-5.html"></a>
                   <!--/ Project URL -->
                 </div>
                 <!--/ Project -->
-
                 <!-- Project -->
                 <div class="ss2-project">
                   <!-- Project Metas -->
@@ -67,11 +59,9 @@
                     <!-- Project Category -->
                     <div class="ss2-project-cat">The Mindfly MPassport</div>
                     <!--/ Project Category -->
-
                     <!-- Project Title -->
                     <div class="ss2-project-title">The Mindfly MPassport</div>
                     <!--/ Project Title -->
-
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
                       A mote of dust suspended in a sunbeam Jean-François
@@ -80,11 +70,10 @@
                     <!--/ Project Excerpt -->
                   </div>
                   <!--/ Project Metas -->
-
                   <!-- Project Image -->
                   <div class="ss2-project-image">
                     <!--Project Video-->
-                    <video class="showcase-video" controls>
+                    <video class="showcase-video" controls autoplay  muted playsinline loop>
                       <source
                         src="../assets/feature-video.mp4"
                         type="video/mp4"
@@ -93,25 +82,21 @@
                     <!--/Project Video-->
                   </div>
                   <!--/ Project Image -->
-
                   <!-- Project URL -->
                   <a class="ss2-project-url" href="project-4.html"></a>
                   <!--/ Project URL -->
                 </div>
                 <!--/ Project -->
-
                 <!-- Project -->
                 <div class="ss2-project">
                   <!-- Project Metas -->
                   <div class="ss2-project-meta">
                     <!-- Project Category -->
-                    <div class="ss2-project-cat">The Mindfly MPassport</div>
+                    <div class="ss2-project-cat">Market</div>
                     <!--/ Project Category -->
-
                     <!-- Project Title -->
-                    <div class="ss2-project-title">The Mindfly MPassport</div>
+                    <div class="ss2-project-title">Mindfly Gallery</div>
                     <!--/ Project Title -->
-
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
                       Rogue shores of the cosmic ocean kindling the energy
@@ -120,22 +105,19 @@
                     <!--/ Project Excerpt -->
                   </div>
                   <!--/ Project Metas -->
-
                   <!-- Project Image -->
                   <div class="ss2-project-image">
                     <img
                       alt="Project İmage"
-                      src="../assets/mindfly-feature-4.png"
+                      src="../assets/mindfly-feature-1.png"
                     />
                   </div>
                   <!--/ Project Image -->
-
                   <!-- Project URL -->
                   <a class="ss2-project-url" href="project-9.html"></a>
                   <!--/ Project URL -->
                 </div>
                 <!--/ Project -->
-
                 <!-- Project -->
                 <div class="ss2-project">
                   <!-- Project Metas -->
@@ -143,11 +125,9 @@
                     <!-- Project Category -->
                     <div class="ss2-project-cat">The Mindfly GameFi</div>
                     <!--/ Project Category -->
-
                     <!-- Project Title -->
                     <div class="ss2-project-title">The Mindfly GameFi</div>
                     <!--/ Project Title -->
-
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
                       The ash of stellar alchemy a very small stage in a vast
@@ -156,7 +136,6 @@
                     <!--/ Project Excerpt -->
                   </div>
                   <!--/ Project Metas -->
-
                   <!-- Project Image -->
                   <div class="ss2-project-image">
                     <img
@@ -165,19 +144,13 @@
                     />
                   </div>
                   <!--/ Project Image -->
-
                   <!-- Project URL -->
                   <a class="ss2-project-url" href="project-6.html"></a>
                   <!--/ Project URL -->
                 </div>
                 <!--/ Project -->
-
-                <!-- Project -->
-
-                <!--/ Project -->
               </div>
               <!--/ Projects Wrapper -->
-
               <!-- Projects Button -->
               <div class="ss2-button">
                 <a href="#.">Read More</a>
