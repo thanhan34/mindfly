@@ -25,10 +25,10 @@
                   <!-- Project Metas -->
                   <div class="ss2-project-meta">
                     <!-- Project Category -->
-                    <div class="ss2-project-cat">Home</div>
+                    <div class="ss2-project-cat">Mindmap</div>
                     <!--/ Project Category -->
                     <!-- Project Title -->
-                    <div class="ss2-project-title">Home</div>
+                    <div class="ss2-project-title">Mindmap</div>
                     <!--/ Project Title -->
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
@@ -57,10 +57,10 @@
                   <!-- Project Metas -->
                   <div class="ss2-project-meta">
                     <!-- Project Category -->
-                    <div class="ss2-project-cat">The Mindfly MPassport</div>
+                    <div class="ss2-project-cat">Mindfly MPassport</div>
                     <!--/ Project Category -->
                     <!-- Project Title -->
-                    <div class="ss2-project-title">The Mindfly MPassport</div>
+                    <div class="ss2-project-title">Mindfly MPassport</div>
                     <!--/ Project Title -->
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
@@ -73,7 +73,13 @@
                   <!-- Project Image -->
                   <div class="ss2-project-image">
                     <!--Project Video-->
-                    <video class="showcase-video" controls autoplay  muted playsinline loop>
+                    <video
+                      class="showcase-video"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                    >
                       <source
                         src="../assets/feature-video.mp4"
                         type="video/mp4"
@@ -123,10 +129,10 @@
                   <!-- Project Metas -->
                   <div class="ss2-project-meta">
                     <!-- Project Category -->
-                    <div class="ss2-project-cat">The Mindfly GameFi</div>
+                    <div class="ss2-project-cat">Mindfly GameFi</div>
                     <!--/ Project Category -->
                     <!-- Project Title -->
-                    <div class="ss2-project-title">The Mindfly GameFi</div>
+                    <div class="ss2-project-title">Mindfly GameFi</div>
                     <!--/ Project Title -->
                     <!-- Project Excerpt -->
                     <div class="ss2-project-excerpt">
