@@ -9,11 +9,7 @@
         <!-- Site Logos -->
         <div class="site-logo">
           <a href="index.html">
-            <img
-              alt="Site Logo Light"
-              class="light-logo"
-              src="../assets/logo.png"
-            />
+            <img alt="Site Logo" class="dark-logo" src="../assets/logo.png" />
           </a>
         </div>
         <!-- /Site Logos -->
